@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>Photo Gallery | Fishland Traders, Uppal, Hyderabad</title>
+  <meta name="description" content="View real photos of Fishland Traders wholesale depot in Uppal, Hyderabad, customer booking counters, daily coastal sea fish, fresh prawns, and mud crabs.">
+  <meta name="theme-color" content="#F5B8C8">
+
+  <!-- Google Fonts: Manrope & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Art-Directed Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================
+       HEADER & NAVIGATION BAR
+       ======================================================== -->
+  <header class="site-header" id="header" role="banner">
+    <div class="header-container">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo" aria-label="Fishland Traders Home">
+        <span class="logo-symbol" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 16s9-15 20-4c-5 2-8 5-11 5-4 0-6-1-9-1z"/>
+            <path d="M20 12l2 4-4-2"/>
+            <circle cx="6" cy="12" r="1.5" fill="currentColor"/>
+          </svg>
+        </span>
+        <div class="brand-text-wrap">
+          <span class="brand-name">FISHLAND TRADERS</span>
+          <span class="brand-sub">Seafood Wholesale &amp; Supply</span>
+        </div>
+      </a>
+
+      <!-- Center Desktop Navigation -->
+      <nav class="main-nav" role="navigation" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="categories.html" class="nav-link">Categories</a></li>
+          <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Header Actions -->
+      <div class="header-actions">
+        <a href="https://wa.me/917989705005?text=Hello%20Fishland%20Traders%2C%20could%20you%20please%20share%20today%27s%20seafood%20availability%20and%20prices%3F" target="_blank" rel="noopener noreferrer" class="header-wa-btn" aria-label="Chat on WhatsApp">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+          </svg>
+          <span>WhatsApp Chat</span>
+        </a>
+
+        <a href="contact.html" class="btn btn-primary header-cta-btn">
+          <span>Contact Us</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Navigation">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-drawer" id="mobile-nav" aria-hidden="true">
+      <div class="mobile-nav-header">
+        <div>
+          <span style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 800; color: var(--color-deep-charcoal); display: block;">Fishland Traders</span>
+          <span style="font-size: 0.72rem; color: var(--color-deep-rose); font-weight: 700; text-transform: uppercase;">Seafood Wholesale</span>
+        </div>
+        <button type="button" class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Close menu">&times;</button>
+      </div>
+
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link"><span>Home</span> &rarr;</a></li>
+        <li><a href="about.html" class="mobile-nav-link"><span>About Us</span> &rarr;</a></li>
+        <li><a href="categories.html" class="mobile-nav-link"><span>Categories</span> &rarr;</a></li>
+        <li><a href="gallery.html" class="mobile-nav-link active"><span>Gallery</span> &rarr;</a></li>
+        <li><a href="contact.html" class="mobile-nav-link"><span>Contact Us</span> &rarr;</a></li>
+      </ul>
+
+      <div style="margin-top: auto; padding-top: 1.5rem; border-top: 1px solid var(--color-pink-border);">
+        <a href="https://wa.me/917989705005?text=Hello%20Fishland%20Traders%2C%20could%20you%20please%20share%20today%27s%20seafood%20prices%3F" target="_blank" class="btn btn-whatsapp" style="width: 100%;">
+          <span>Chat on WhatsApp</span>
+        </a>
+      </div>
+    </div>
+    <div class="mobile-drawer-backdrop" id="mobile-backdrop"></div>
+  </header>
+
+  <main id="main-content">
+    
+    <!-- ========================================================
+         EDITORIAL PAGE HEADER BANNER
+         ======================================================== -->
+    <section class="section section-blush" style="padding-top: clamp(2.5rem, 5vw, 4.25rem); padding-bottom: clamp(2.25rem, 3.5vw, 3.25rem);">
+      <div class="container text-center">
+        <div class="section-kicker">
+          <span class="kicker-line"></span>
+          <span>B2B WHOLESALE PHOTO GALLERY</span>
+          <span class="kicker-line"></span>
+        </div>
+        <h1 style="margin-bottom: 1rem;">Depot, Fresh Fish &amp; Prawns Gallery</h1>
+        <p style="max-width: 720px; margin-left: auto; margin-right: auto; font-size: 1.08rem; color: var(--color-secondary-text); line-height: 1.7;">
+          View real photos of our Uppal wholesale depot, administrative dispatch counters, daily coastal sea fish arrivals, freshwater fish harvests, and wholesale prawn crates.
+        </p>
+
+        <!-- Category Filter Tabs -->
+        <div class="gallery-filter-bar" style="margin-top: 2.25rem; margin-bottom: 0;">
+          <button type="button" class="gallery-filter-btn js-gallery-filter active" data-filter="all">All Photos</button>
+          <button type="button" class="gallery-filter-btn js-gallery-filter" data-filter="store">Depot &amp; Office</button>
+          <button type="button" class="gallery-filter-btn js-gallery-filter" data-filter="fish">Fresh Fish Wholesale</button>
+          <button type="button" class="gallery-filter-btn js-gallery-filter" data-filter="prawns">Prawns &amp; Shrimp Wholesale</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         GALLERY GRID SECTION
+         ======================================================== -->
+    <section class="section" style="padding-top: clamp(2rem, 4vw, 3.5rem); background-color: var(--color-pure-white);">
+      <div class="container">
+        
+        <!-- Live Gallery Grid (Populated dynamically & interactive) -->
+        <div class="gallery-grid" id="seafood-gallery-grid">
+          <!-- Fallback items for search engines & instant loading -->
+          <div class="gallery-card js-gallery-item" data-category="store" data-id="store-1">
+            <img src="assets/images/gallery/store-reception-banner.jpg" alt="Fishland Traders Reception & Brand Display" class="gallery-card-img" loading="eager">
+            <div class="gallery-card-overlay">
+              <span class="gallery-card-tag">Depot Storefront</span>
+              <h4 class="gallery-card-title">Fishland Traders Reception &amp; Brand Display</h4>
+            </div>
+          </div>
+          <div class="gallery-card js-gallery-item" data-category="store" data-id="store-2">
+            <img src="assets/images/gallery/store-office-overview.jpg" alt="Wholesale Depot Office & Coordination" class="gallery-card-img" loading="eager">
+            <div class="gallery-card-overlay">
+              <span class="gallery-card-tag">Administrative Hub</span>
+              <h4 class="gallery-card-title">Wholesale Depot Office &amp; Coordination</h4>
+            </div>
+          </div>
+          <div class="gallery-card js-gallery-item" data-category="store" data-id="store-3">
+            <img src="assets/images/gallery/store-desk-front.jpg" alt="Order Consultation & Billing Desk" class="gallery-card-img" loading="eager">
+            <div class="gallery-card-overlay">
+              <span class="gallery-card-tag">Customer Service</span>
+              <h4 class="gallery-card-title">Order Consultation &amp; Billing Desk</h4>
+            </div>
+          </div>
+          <div class="gallery-card js-gallery-item" data-category="store" data-id="store-4">
+            <img src="assets/images/gallery/store-wall-banner.jpg" alt="Coastal Supply Hub & GSTIN Registration" class="gallery-card-img" loading="eager">
+            <div class="gallery-card-overlay">
+              <span class="gallery-card-tag">Licensed Depot</span>
+              <h4 class="gallery-card-title">Coastal Supply Hub &amp; GSTIN Registration</h4>
+            </div>
+          </div>
+          <div class="gallery-card js-gallery-item" data-category="store" data-id="store-5">
+            <img src="assets/images/gallery/store-billing-counter.jpg" alt="Order Booking & Express Dispatch Desk" class="gallery-card-img" loading="eager">
+            <div class="gallery-card-overlay">
+              <span class="gallery-card-tag">Billing &amp; Dispatch</span>
+              <h4 class="gallery-card-title">Order Booking &amp; Express Dispatch Desk</h4>
+            </div>
+          </div>
+          <div class="gallery-card js-gallery-item" data-category="fish" data-id="g-1">
+            <img src="assets/images/Project_Images/vanjaram.webp" alt="Fresh Seer Fish / Vanjaram" class="gallery-card-img" loading="lazy">
+            <div class="gallery-card-overlay">
+              <span class="gallery-card-tag">Fresh Sea Fish</span>
+              <h4 class="gallery-card-title">Fresh Seer Fish / Vanjaram</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depot Quality & Sourcing Assurance Card -->
+        <div style="margin-top: clamp(2.5rem, 5vw, 4rem); background: linear-gradient(135deg, var(--color-blush-bg) 0%, var(--color-surface-pink) 100%); border-radius: var(--radius-xl); padding: clamp(1.5rem, 3vw, 2.5rem); border: 1px solid var(--color-pink-border); display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.75rem; align-items: center;">
+          <div>
+            <span class="badge-pink" style="margin-bottom: 0.5rem;">Authentic Wholesale Hub</span>
+            <h3 style="font-size: clamp(1.2rem, 2vw, 1.45rem); color: var(--color-deep-charcoal); margin: 0 0 0.5rem 0;">Visit Our Uppal Depot or Order Remotely</h3>
+            <p style="font-size: 0.92rem; color: var(--color-secondary-text); margin: 0; line-height: 1.6;">
+              Customers, chefs, and catering managers are welcome to inspect daily fresh arrivals in person at our Uppal depot, or book daily supply via WhatsApp.
+            </p>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 0.75rem; justify-content: center; align-items: flex-start;">
+            <div style="font-size: 0.88rem; color: var(--color-deep-charcoal);">
+              <strong>Depot Address:</strong> H.No. 2-6-3, Near TX Hospital, Bharat Nagar, Uppal, Hyderabad – 500039
+            </div>
+            <div style="font-size: 0.88rem; color: var(--color-deep-charcoal);">
+              <strong>GSTIN:</strong> 36BRAPJ2490R1ZA
+            </div>
+            <a href="https://wa.me/917989705005?text=Hello%20Fishland%20Traders%2C%20I%20would%20like%20to%20enquire%20about%20today%27s%20fresh%20catch%20prices." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="margin-top: 0.5rem;">
+              <span>Enquire on WhatsApp</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         LIGHTBOX MODAL FOR FULL-SIZE IMAGE PREVIEW & DIRECT ENQUIRY
+         ======================================================== -->
+    <div class="gallery-modal" id="gallery-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="gallery-modal-title">
+      <div class="gallery-modal-backdrop" id="gallery-modal-backdrop"></div>
+      <div class="gallery-modal-content">
+        <button type="button" class="gallery-modal-close" id="gallery-modal-close" aria-label="Close preview">&times;</button>
+        <div class="gallery-modal-img-wrap">
+          <img src="" alt="" id="gallery-modal-img" class="gallery-modal-img">
+        </div>
+        <div class="gallery-modal-body">
+          <div class="gallery-modal-info">
+            <span class="gallery-modal-tag" id="gallery-modal-tag">Fresh Seafood</span>
+            <h3 class="gallery-modal-title" id="gallery-modal-title">Photo Preview</h3>
+            <p class="gallery-modal-desc" id="gallery-modal-desc">Daily fresh seafood availability at Fishland Traders, Uppal.</p>
+          </div>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" id="gallery-modal-wa-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+            </svg>
+            <span>Enquire on WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================================
+         CALL TO ACTION BANNER (DEEP CHARCOAL WITH PINK ACCENTS)
+         ======================================================== -->
+    <section class="cta-banner-section">
+      <div class="container">
+        <div class="cta-content-wrap">
+          <span class="cta-badge">DAILY WHOLESALE SUPPLY</span>
+          <h2 class="cta-title">Looking for Bulk Seafood Supply in Hyderabad?</h2>
+          <p class="cta-desc">
+            We supply fresh marine fish, prawns, and crabs to leading restaurants, hoteliers, wedding caterers, and retail households with reliable morning deliveries.
+          </p>
+          <div class="cta-actions">
+            <a href="contact.html" class="btn btn-primary" style="padding: 0.95rem 2.25rem;">
+              <span>Visit Our Uppal Depot</span>
+            </a>
+            <a href="https://wa.me/917989705005?text=Hello%20Fishland%20Traders%2C%20could%20you%20please%20share%20today%27s%20seafood%20availability%20and%20prices%3F" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="padding: 0.95rem 2.25rem;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+              </svg>
+              <span>Chat on WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================
+       FOOTER (DEEP CHARCOAL WITH PINK ACCENTS)
+       ======================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand & Overview -->
+        <div>
+          <div class="footer-brand-title">
+            FISHLAND <span class="accent">TRADERS</span>
+          </div>
+          <p class="footer-desc">
+            Direct seafood wholesale merchant based in Uppal, Hyderabad. Supplying daily coastal arrivals from Visakhapatnam, Chennai, and Kochi with unbroken cold-chain hygiene.
+          </p>
+          <div class="footer-badge">
+            <span class="badge-dot"></span>
+            <span>Registered Wholesale Depot • Uppal</span>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-nav-links">
+            <li><a href="index.html" class="footer-link-item">Home</a></li>
+            <li><a href="about.html" class="footer-link-item">About Us</a></li>
+            <li><a href="categories.html" class="footer-link-item">Categories</a></li>
+            <li><a href="gallery.html" class="footer-link-item">Gallery</a></li>
+            <li><a href="contact.html" class="footer-link-item">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Seafood Categories -->
+        <div>
+          <h4 class="footer-col-title">B2B Wholesale Categories</h4>
+          <ul class="footer-nav-links">
+            <li><a href="categories.html#cat-sea-fish" class="footer-link-item">Fresh Sea Fish Wholesale</a></li>
+            <li><a href="categories.html#cat-freshwater-fish" class="footer-link-item">Freshwater Fish Wholesale</a></li>
+            <li><a href="categories.html#cat-prawns-shrimp" class="footer-link-item">Prawns &amp; Shrimp Wholesale</a></li>
+            <li><a href="categories.html" class="footer-link-item">Daily Crates for Fish Stalls</a></li>
+            <li><a href="categories.html" class="footer-link-item">Bulk Supply for Restaurants</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact Info -->
+        <div>
+          <h4 class="footer-col-title">Contact &amp; Hub</h4>
+          <div class="footer-contact-items">
+            <div class="footer-contact-row">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>Phone: <a href="tel:+917989705005" style="color: #fff; font-weight: 700;">+91 7989705005</a></span>
+            </div>
+            <div class="footer-contact-row">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Location: Uppal, Hyderabad, Telangana – 500039</span>
+            </div>
+            <div class="footer-contact-row">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Hours: 5:00 AM – 10:00 PM (Daily)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p>&copy; <span class="js-current-year">2026</span> Fishland Traders. All rights reserved.</p>
+        <p>Premium Seafood Wholesale Supply • Serving Hyderabad &amp; Secunderabad</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Live Pill Widget -->
+  <a href="https://wa.me/917989705005?text=Hello%20Fishland%20Traders%2C%20could%20you%20please%20share%20today%27s%20seafood%20availability%20and%20prices%3F" class="floating-wa-widget" target="_blank" rel="noopener noreferrer" aria-label="Chat directly on WhatsApp with Fishland Traders">
+    <span class="floating-wa-pill">
+      <span class="wa-pulse-dot"></span>
+      <span class="wa-pill-text">Chat on WhatsApp</span>
+    </span>
+    <span class="floating-wa-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+      </svg>
+    </span>
+  </a>
+
+  <!-- Vanilla JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
